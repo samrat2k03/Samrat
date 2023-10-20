@@ -1,0 +1,61 @@
+#background{
+        background: linear-gradient(150deg, #ff4040, #1565c0);
+        background-size: 400% 400%;
+    
+        -webkit-animation: AnimationName 16s ease infinite;
+        -moz-animation: AnimationName 16s ease infinite;
+        -o-animation: AnimationName 16s ease infinite;
+        animation: AnimationName 16s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 18%}
+        50%{background-position:100% 83%}
+        100%{background-position:0% 18%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 18%}
+        50%{background-position:100% 83%}
+        100%{background-position:0% 18%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:0% 18%}
+        50%{background-position:100% 83%}
+        100%{background-position:0% 18%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 18%}
+        50%{background-position:100% 83%}
+        100%{background-position:0% 18%}
+    }
+
+    /* #background{
+        background: linear-gradient(144deg, #ff3423, #1864c9, #5b626b, #e24747, #000000);
+        background-size: 1000% 1000%;
+    
+        -moz-animation: AnimationName 4s ease infinite;
+        -o-animation: AnimationName 4s ease infinite;
+        animation: AnimationName 4s ease infinite;
+    }
+    
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 87%}
+        50%{background-position:100% 14%}
+        100%{background-position:0% 87%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:0% 87%}
+        50%{background-position:100% 14%}
+        100%{background-position:0% 87%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 87%}
+        50%{background-position:100% 14%}
+        100%{background-position:0% 87%}
+    } */
+    
+    /* #background{
+        background-image: url("../Assets/bg.svg");
+        background-repeat: no-repeat;
+        background-size:cover;
+    } */

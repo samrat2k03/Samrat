@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Zoho Puvi Black */
+@font-face {
+    font-family: "ZohoPuviBlack";
+    src: local("Zoho Puvi Black"), url("../src/Fonts/OpenType-PS/Zoho Puvi Black.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Zoho Puvi Bold Italic */
+  @font-face {
+    font-family: "ZohoPuviBoldItalic";
+    src: local("Zoho Puvi Bold Italic"), url("../src/Fonts/OpenType-PS/Zoho Puvi Bold Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  /* Zoho Puvi Bold */
+  @font-face {
+    font-family: "ZohoPuviBold";
+    src: local("Zoho Puvi Bold"), url("../src/Fonts/OpenType-PS/Zoho Puvi Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Zoho Puvi Extrablack */
+  @font-face {
+    font-family: "ZohoPuviExtrablack";
+    src: local("Zoho Puvi Extrablack"), url("../src/Fonts/OpenType-PS/Zoho Puvi Extrablack.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Zoho Puvi Extrabold */
+  @font-face {
+    font-family: "ZohoPuviExtrabold";
+    src: local("Zoho Puvi Extrabold"), url("../src/Fonts/OpenType-PS/Zoho Puvi Extrabold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Zoho Puvi Extralight */
+  @font-face {
+    font-family: "ZohoPuviExtralight";
+    src: local("Zoho Puvi Extralight"), url("../src/Fonts/OpenType-PS/Zoho Puvi Extralight.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Zoho Puvi Light */
+  @font-face {
+    font-family: "ZohoPuviLight";
+    src: local("Zoho Puvi Light"), url("../src/Fonts/OpenType-PS/Zoho Puvi Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Zoho Puvi Medium */
+  @font-face {
+    font-family: "ZohoPuviMedium";
+    src: local("Zoho Puvi Medium"), url("../src/Fonts/OpenType-PS/Zoho Puvi Medium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Zoho Puvi Regular Italic */
+  @font-face {
+    font-family: "ZohoPuviRegularItalic";
+    src: local("Zoho Puvi Regular Italic"), url("../src/Fonts/OpenType-PS/Zoho Puvi Regular Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  /* Zoho Puvi Regular */
+  @font-face {
+    font-family: "ZohoPuviRegular";
+    src: local("Zoho Puvi Regular"), url("../src/Fonts/OpenType-PS/Zoho Puvi Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Zoho Puvi Semibold Italic */
+  @font-face {
+    font-family: "ZohoPuviSemiboldItalic";
+    src: local("Zoho Puvi Semibold Italic"), url("../src/Fonts/OpenType-PS/Zoho Puvi Semibold Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* Zoho Puvi Semibold */
+  @font-face {
+    font-family: "ZohoPuviSemibold";
+    src: local("Zoho Puvi Semibold"), url("../src/Fonts/OpenType-PS/Zoho Puvi Semibold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Zoho Puvi Thin */
+  @font-face {
+    font-family: "ZohoPuviThin";
+    src: local("Zoho Puvi Thin"), url("../src/Fonts/OpenType-PS/Zoho Puvi Thin.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Hide the default scrollbar */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track (the area behind the thumb) */
+::-webkit-scrollbar-track {
+    background: #000; /* Dark background color */
+  }
+  
+  /* Thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background: #000; /* Darker color for the thumb */
+  }
+  
+  /* When hovering over the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Slightly lighter color on hover */
+  }
+  
+
+  /* buttons */
+
+  .button1 {
+    @apply flex justify-center items-center lg:gap-[15px] gap-[10px] bg-[#181717] outline-offset-[-3px] cursor-pointer transition-[400ms] px-[10px] py-2 rounded-[10px] border-[none] hover:bg-transparent;
+    outline: 2px #181717 solid;
+  }
+  .button1 .codetext {
+    @apply text-[white] font-bold lg:text-[1em] text-[0.7rem] transition-[400ms];
+  }
+  .button1 svg path {
+    @apply transition-[400ms];
+  }
+  .button1:hover .codetext {
+    @apply text-[#181717];
+  }
+  .button1:hover svg path {
+    @apply fill-[#181717];
+  }
