@@ -106,7 +106,7 @@ export const SkillsList = [
 export const projects = [
     {
         name: "Ecommerce Scraper",
-        description : "Ecommerce Product Scraper and compares multiple ecommerce site(Amazon, Flipkart) product details",
+        description : "Scraping product details in Ecommerce sites like Amazon, Flipkart and compares the prize, reviews of the product .",
         technology:"MERN Stack",
         github:"https://github.com/samrat2k03/Ecommerce-Scraper.git",
         live:"https://github.com/samrat2k03/Ecommerce-Scraper.git",
@@ -116,7 +116,7 @@ export const projects = [
     },
     {
         name: "Chat With Docs",
-        description : "You can collaborate with you own data and it can respond like a virtual assistant",
+        description : "You can collaborate with you own data and it can responds like a virtual assistant.",
         technology:"Python, Google Gemini API, StreamLit",
         github:"https://github.com/samrat2k03/Chat-with-docs.git",
         live:"https://github.com/samrat2k03/Chat-with-docs.git",
