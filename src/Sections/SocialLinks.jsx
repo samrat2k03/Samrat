@@ -1,6 +1,6 @@
 import React from "react";
 import { socialMedia } from "../Constants";
-import phone from "../Assets/social/phone-call.png";
+import email from "../Assets/social/email.png"
 
 function SocialLinks() {
   return (
@@ -14,10 +14,12 @@ function SocialLinks() {
         </p>
       </div>
       <div className="flex flex-row gap-2 py-5">
-        <img src={phone} alt="phone" height={20} width={20} />
-        <p className="font-[ZohoPuviRegular] font-bold hover:text-red-500 text-[18px] cursor-pointer">
-          +91 9176013065
-        </p>
+        <img src={email} alt="email" height={30} width={30} />
+        <a href="mailto:samratapr40@gmail.com">
+          <p className="font-[ZohoPuviRegular] font-semi-bold hover:text-red-500 text-[18px] cursor-pointer">
+            samratapr40@gmail.com
+          </p>
+        </a>
       </div>
       <section className="flex flex-row justify-center gap-8 bg-opacity-20 backdrop-blur-md rounded-lg shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
         {socialMedia.map((social, index) => (
