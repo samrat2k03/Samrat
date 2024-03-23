@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../Assets/resume/Samrat Resume Full Stack Developer.pdf";
+import Resume from "../Assets/resume/Samrat's Resume.pdf";
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import { Link } from "react-router-dom";

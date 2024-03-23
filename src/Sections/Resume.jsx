@@ -1,4 +1,4 @@
-import resume from "../Assets/resume/Samrat Resume Full Stack Developer.pdf"
+import resume from "../Assets/resume/Samrat's Resume.pdf"
 import { Link } from "react-router-dom";
 
 function Resume() {
