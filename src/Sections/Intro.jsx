@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css'
 import samrat from "../Assets/myself/samrat4.png"
+import { ReachMe } from '../Components/ReachMe.jsx'
 
 function Intro() {
   return (
@@ -15,8 +16,11 @@ function Intro() {
           Software Developer | Full Stack Developer 
         </h3>
         <p className='px-4 lg:px-9 text-sm lg:text-2xl text-gray-100 max-md:text-center'>
-          Developing Secure and Scalable Applications
+          Developing Secure and Scalable Applications and also I specialize in turning ideas into sleek, efficient applications.
         </p>
+        <div className='pt-10 pl-10 flex '>
+        <ReachMe />
+        </div>
       </div>
       {/* rightSideContent */}
       <div className='lg:w-1/2 flex justify-center'>
