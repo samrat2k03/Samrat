@@ -12,11 +12,10 @@ function Intro() {
           Hi, I'm Samrat 👋
         </h2>
         <h3 className='font-[ZohoPuviMedium] text-center mb-3 lg:text-[30px] text-[15px] text-gray-200'>
-          Full Stack Developer | AI & ML Enthusiast
+          Software Developer | Full Stack Developer 
         </h3>
-        <p className='px-4 lg:px-9 text-lg lg:text-2xl text-gray-100 max-md:text-center'>
-          I'm on a mission to build a better future through technology.<br />
-          I create full-stack applications to solve real-world problems and explore the exciting world of AI and Machine Learning. Also contributing open source projects 🚀 has a hobby.  
+        <p className='px-4 lg:px-9 text-sm lg:text-2xl text-gray-100 max-md:text-center'>
+          Developing Secure and Scalable Applications
         </p>
       </div>
       {/* rightSideContent */}
