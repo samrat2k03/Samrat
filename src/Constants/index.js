@@ -15,6 +15,7 @@ import canva from "../Assets/canvas1.png"
 import gfirebase from "../Assets/gfblogo.png"
 import flask from "../Assets/flask.png"
 import java from "../Assets/java-logo.png"
+import sql from "../Assets/sql.png"
 
 import nike from "../Assets/projects/nike-new.png"
 import mushroom from "../Assets/projects/mushroom.jpg"
@@ -77,6 +78,10 @@ export const SkillsList = [
     {
         name: "MongoDB",
         skillImage : mongodb
+    },
+    {
+        name: "MySQL",
+        skillImage : sql
     },{
         name: "Google FireBase",
         skillImage : gfirebase
