@@ -9,7 +9,7 @@ function Intro() {
       {/* leftSideContent */}
       <div className='lg:w-1/2 flex flex-col justify-center'>
         <h2 className='font-[ZohoPuviSemibold] lg:text-[70px] text-[2rem] text-center text-[#f0f0f0]'>
-          Hi, I'm Samrat 👋
+          Hi, I'm Samrat
         </h2>
         <h3 className='font-[ZohoPuviMedium] text-center mb-3 lg:text-[30px] text-[15px] text-gray-200'>
           Software Developer | Full Stack Developer 

@@ -16,11 +16,11 @@ import gfirebase from "../Assets/gfblogo.png"
 import flask from "../Assets/flask.png"
 import java from "../Assets/java-logo.png"
 
-import nike from "../Assets/projects/header-logo.svg"
+import nike from "../Assets/projects/nike-new.png"
 import mushroom from "../Assets/projects/mushroom.jpg"
 import StudentHub from "../Assets/projects/StudentHub.png"
 import todoapp from "../Assets/projects/todo1.jpg"
-import ecommerce from "../Assets/projects/ecommerce.jpg"
+import ecommerce from "../Assets/projects/ecommerce-3.jpg"
 import chatWithDocs from "../Assets/projects/chatWithDocs.png"
 
 import hacktoberfest from "../Assets/projects/10@2x.png"
@@ -106,29 +106,29 @@ export const projects = [
         github:"https://github.com/samrat2k03/Ecommerce-Scraper.git",
         live:"https://github.com/samrat2k03/Ecommerce-Scraper.git",
         coverPhoto: ecommerce,
-        height: 500,
-        width:500,
+        height: 250,
+        width:250,
     },
     {
         name: "Chat With Docs",
-        description : "You can collaborate with you own data",
+        description : "You can collaborate with you own data and it can respond like a virtual assistant",
         technology:"Python, Google Gemini API, StreamLit",
         github:"https://github.com/samrat2k03/Chat-with-docs.git",
         live:"https://github.com/samrat2k03/Chat-with-docs.git",
         coverPhoto: chatWithDocs,
-        height: 500,
-        width:500,
+        height: 400,
+        width:400,
     },
     {
-        name: "Nike Landing Page",
-        description : "This Nike landing page is a dynamic and visually appealing web application that provides an engaging and interactive user experience",
-        technology:"ReactJs, TailWindCSS",
-        github:"https://github.com/samrat2k03/nike-landing-page.git",
-        live:"https://nike-landing-page-samrat.netlify.app/",
-        coverPhoto: nike,
-        height: 500,
-        width:500,
-        category:"Frontend"
+        name: "Student Hub",
+        description : "This is an advanced version of student information system. Students can chat, discuss, registering their profiles and direct communication with institute",
+        technology:"ReactJs, Sass, Firebase, FireStore",
+        github:"https://github.com/samrat2k03/V2---Student-Hub.git",
+        live:"https://student-hub-1.web.app/",
+        coverPhoto: StudentHub,
+        height: 400,
+        width:400,
+        category:"Full Stack Web Application"
     },
     {
         name: "Mushroom Classification using Artificial Intelligence",
@@ -138,31 +138,21 @@ export const projects = [
         live:"https://github.com/samrat2k03/AI-Mushroom-Classification-Analysis/blob/master/README.md",
         coverPhoto:mushroom,
         height: 350,
-        width:400,
+        width:350,
         category:"Machine Learning with Web"
     },
     {
-        name: "Student Hub",
-        description : "Here, this is the advanced version of student information system. Students can chat, discuss, registering their profiles and direct communication with institute",
-        technology:"ReactJs, Sass, Firebase, FireStore",
-        github:"https://github.com/samrat2k03/V2---Student-Hub.git",
-        live:"https://student-hub-1.web.app/",
-        coverPhoto: StudentHub,
-        height: 500,
-        width:600,
-        category:"Full Stack Web Application"
-    },
-    {
-        name: "Todo Application",
-        description : "A simple todo application, that can boost your productivity and activities",
-        technology:"HTML, CSS, JavaScript",
-        github:"https://github.com/samrat2k03/Todo-List-App.git",
-        live:"https://todo-app-samrat.web.app/",
-        coverPhoto: todoapp,
+        name: "Nike Landing Page",
+        description : "This Nike landing page is a dynamic and visually appealing web application that provides an engaging and interactive user experience",
+        technology:"ReactJs, TailWindCSS",
+        github:"https://github.com/samrat2k03/nike-landing-page.git",
+        live:"https://nike-landing-page-samrat.netlify.app/",
+        coverPhoto: nike,
         height: 300,
         width:300,
-        category:"Web Application"
-    },    
+        category:"Frontend"
+    }
+  
 ]
 
 export const competitions = [
