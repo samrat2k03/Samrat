@@ -130,7 +130,7 @@ function Projects() {
               className="w-full h-52 "
             />
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-2 text-center">{project.name}</h3>
+              <h3 className="text-2xl font-bold mb-2 text-center">{project.name}</h3>
               <p className="text-sm text-gray-700 mb-4">
                 <span className="text-red-500">Tech Stack: </span>
                 {project.technology}
