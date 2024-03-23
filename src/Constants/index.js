@@ -14,11 +14,14 @@ import linux from "../Assets/linux.png"
 import canva from "../Assets/canvas1.png"
 import gfirebase from "../Assets/gfblogo.png"
 import flask from "../Assets/flask.png"
+import java from "../Assets/java-logo.png"
 
 import nike from "../Assets/projects/header-logo.svg"
 import mushroom from "../Assets/projects/mushroom.jpg"
 import StudentHub from "../Assets/projects/StudentHub.png"
 import todoapp from "../Assets/projects/todo1.jpg"
+import ecommerce from "../Assets/projects/ecommerce.jpg"
+import chatWithDocs from "../Assets/projects/chatWithDocs.png"
 
 import hacktoberfest from "../Assets/projects/10@2x.png"
 import badge from "../Assets/competition/hacktoberfest2023.png"
@@ -64,6 +67,10 @@ export const SkillsList = [
         skillImage : python
     },
     {
+        name: "Java",
+        skillImage : java
+    },
+    {
         name: "Flask",
         skillImage : flask
     },
@@ -83,9 +90,6 @@ export const SkillsList = [
         name: "TensorFlow",
         skillImage : tensorflow
     },{
-        name: "PyTorch",
-        skillImage : pytorch
-    },{
         name: "Canva",
         skillImage : canva
     },{
@@ -95,6 +99,26 @@ export const SkillsList = [
 ]
 
 export const projects = [
+    {
+        name: "Ecommerce Scraper",
+        description : "Ecommerce Product Scraper and compares multiple ecommerce site(Amazon, Flipkart) product details",
+        technology:"MERN Stack",
+        github:"https://github.com/samrat2k03/Ecommerce-Scraper.git",
+        live:"https://github.com/samrat2k03/Ecommerce-Scraper.git",
+        coverPhoto: ecommerce,
+        height: 500,
+        width:500,
+    },
+    {
+        name: "Chat With Docs",
+        description : "You can collaborate with you own data",
+        technology:"Python, Google Gemini API, StreamLit",
+        github:"https://github.com/samrat2k03/Chat-with-docs.git",
+        live:"https://github.com/samrat2k03/Chat-with-docs.git",
+        coverPhoto: chatWithDocs,
+        height: 500,
+        width:500,
+    },
     {
         name: "Nike Landing Page",
         description : "This Nike landing page is a dynamic and visually appealing web application that provides an engaging and interactive user experience",

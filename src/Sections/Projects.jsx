@@ -28,10 +28,10 @@ function Projects() {
                 {project.technology}
               </p>
               <p className="text-center lg:text-[20px] text-[10px] py-3">{project.description}</p>
-              <p className="text-center lg:text-[15px] text-[10px]">
+              {/* <p className="text-center lg:text-[15px] text-[10px]">
                 <span className="text-red-500">Category: </span>
                 {project.category}
-              </p>
+              </p> */}
               <div className="flex lg:gap-10 gap-2 justify-center py-5">
               <Button  url={project.github}/>
               <LiveButton url={project.live} />  
