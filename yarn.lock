@@ -463,6 +463,11 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
+"@rcaferati/wac@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@rcaferati/wac/-/wac-1.0.0.tgz#7505671559d576dd8c1f7c9a3b0cfea1fa6cd554"
+  integrity sha512-7dVbzvcfL9o4UnrCaNeoIs7Ri9Ol+OMfpYYCJJV1dfm+5+pVM6DrvFjPzqifd2ACVABpXmwTQKy9KFxNm/7IdA==
+
 "@react-pdf-viewer/core@^3.12.0":
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/@react-pdf-viewer/core/-/core-3.12.0.tgz#40dc9bee5bce5281cd9ea62d958e4169b500fa14"
@@ -2382,6 +2387,13 @@ queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
+
+react-awesome-slider-new@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/react-awesome-slider-new/-/react-awesome-slider-new-4.1.1.tgz#a5376c358fcf9d411bcf7a7db27296bc0bb52afd"
+  integrity sha512-Ce0Yd5QOwJrDV91S9GVIWi2sHX/zTlEzdfzlrj/vjKMu0ZStmeo1NemPEWlwtmKw9rG0BAx3ygzFl1bx6rsOfw==
+  dependencies:
+    "@rcaferati/wac" "^1.0.0"
 
 react-dom@^18.2.0:
   version "18.3.1"
