@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 /* Zoho Puvi Black */
-@font-face {
+/* @font-face {
     font-family: "ZohoPuviBlack";
     src: local("Zoho Puvi Black"), url("../src/Fonts/OpenType-PS/Zoho Puvi Black.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
+  } */
   
   /* Zoho Puvi Bold Italic */
-  @font-face {
+  /* @font-face {
     font-family: "ZohoPuviBoldItalic";
     src: local("Zoho Puvi Bold Italic"), url("../src/Fonts/OpenType-PS/Zoho Puvi Bold Italic.otf") format("opentype");
     font-weight: normal;
     font-style: italic;
-  }
+  } */
   
   /* Zoho Puvi Bold */
   @font-face {
@@ -27,36 +27,36 @@
   }
   
   /* Zoho Puvi Extrablack */
-  @font-face {
+  /* @font-face {
     font-family: "ZohoPuviExtrablack";
     src: local("Zoho Puvi Extrablack"), url("../src/Fonts/OpenType-PS/Zoho Puvi Extrablack.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
+  } */
   
   /* Zoho Puvi Extrabold */
-  @font-face {
+  /* @font-face {
     font-family: "ZohoPuviExtrabold";
     src: local("Zoho Puvi Extrabold"), url("../src/Fonts/OpenType-PS/Zoho Puvi Extrabold.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
+  } */
   
   /* Zoho Puvi Extralight */
-  @font-face {
+  /* @font-face {
     font-family: "ZohoPuviExtralight";
     src: local("Zoho Puvi Extralight"), url("../src/Fonts/OpenType-PS/Zoho Puvi Extralight.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
+  } */
   
   /* Zoho Puvi Light */
-  @font-face {
+  /* @font-face {
     font-family: "ZohoPuviLight";
     src: local("Zoho Puvi Light"), url("../src/Fonts/OpenType-PS/Zoho Puvi Light.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
+  } */
   
   /* Zoho Puvi Medium */
   @font-face {
@@ -67,12 +67,12 @@
   }
   
   /* Zoho Puvi Regular Italic */
-  @font-face {
+  /* @font-face {
     font-family: "ZohoPuviRegularItalic";
     src: local("Zoho Puvi Regular Italic"), url("../src/Fonts/OpenType-PS/Zoho Puvi Regular Italic.otf") format("opentype");
     font-weight: normal;
     font-style: italic;
-  }
+  } */
   
   /* Zoho Puvi Regular */
   @font-face {
@@ -83,12 +83,12 @@
   }
   
   /* Zoho Puvi Semibold Italic */
-  @font-face {
+  /* @font-face {
     font-family: "ZohoPuviSemiboldItalic";
     src: local("Zoho Puvi Semibold Italic"), url("../src/Fonts/OpenType-PS/Zoho Puvi Semibold Italic.otf") format("opentype");
     font-weight: bold;
     font-style: italic;
-  }
+  } */
   
   /* Zoho Puvi Semibold */
   @font-face {
@@ -99,12 +99,12 @@
   }
   
   /* Zoho Puvi Thin */
-  @font-face {
+  /* @font-face {
     font-family: "ZohoPuviThin";
     src: local("Zoho Puvi Thin"), url("../src/Fonts/OpenType-PS/Zoho Puvi Thin.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
+  } */
   
   /* Hide the default scrollbar */
 ::-webkit-scrollbar {

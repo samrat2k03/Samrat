@@ -5,7 +5,7 @@ import { ReachMe } from '../Components/ReachMe.jsx'
 
 function Intro() {
   return (
-    <div className="bg-black p-5 min-h-screen">
+    <div className="bg-black p-5">
     <div id="background" className='h-auto lg:h-[calc(100vh-40px)] flex lg:flex-row flex-col-reverse  px-5 py-5 rounded-xl'>
       {/* leftSideContent */}
       <div className='lg:w-1/2 flex flex-col justify-center'>

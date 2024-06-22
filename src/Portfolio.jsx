@@ -13,17 +13,31 @@ import Loading from "./Components/Loading"
 
 function Portfolio() {
       
-  const [isLoading, setIsLoading] = useState(true);
+  const [fontsLoaded, setFontsLoaded] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false); 
-    }, 2000); 
-  }, []);
+    
+    const fontPromises = [
+      new FontFace('ZohoPuviRegular', 'url("../src/Fonts/OpenType-PS/Zoho Puvi Regular.otf")').load(),
+      new FontFace('ZohoPuviSemibold', 'url("../src/Fonts/OpenType-PS/Zoho Puvi Semibold.otf")').load(),
+      new FontFace('ZohoPuviMedium', 'url("../src/Fonts/OpenType-PS/Zoho Puvi Medium.otf")').load(),
+      new FontFace('ZohoPuviBold', 'url("../src/Fonts/OpenType-PS/Zoho Puvi Bold.otf")').load(),
+    ];
+
+    Promise.all(fontPromises)
+    .then((loadedFonts) => {
+      loadedFonts.forEach((font) => document.fonts.add(font));
+      setFontsLoaded(false);
+    })
+    .catch((error) => {
+      console.error('Font loading failed:', error);
+    });
+  },[])
+
 
   return (
     <main className="relative">
-      {isLoading ? (
+      {fontsLoaded ? (
         <Loading />
       ) : (
         <>

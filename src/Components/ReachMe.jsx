@@ -7,7 +7,7 @@ export function ReachMe() {
 
   return (
     <button 
-        className="relative flex justify-center items-center font-semibold text-base gap-1 transition-colors text-red-200 hover:text-white" 
+        className="relative flex justify-center items-center font-semibold text-base gap-1 transition-colors text-red-200 text-00 hover:text-white" 
         style={{ '--primary-color': '#111', '--hovered-color': '#c84747' }}
         onClick={scrollToSocialLinks}
         >
