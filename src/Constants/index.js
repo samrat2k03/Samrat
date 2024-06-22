@@ -16,6 +16,7 @@ import gfirebase from "../Assets/gfblogo.png"
 import flask from "../Assets/flask.png"
 import java from "../Assets/java-logo.png"
 import sql from "../Assets/sql.png"
+import docker from "../Assets/docker-logo.svg"
 
 import nike from "../Assets/projects/nike-new.png"
 import mushroom from "../Assets/projects/mushroom.jpg"
@@ -100,6 +101,9 @@ export const SkillsList = [
     },{
         name: "Linux",
         skillImage : linux
+    },{
+        name:"Docker",
+        skillImage : docker
     }
 ]
 
