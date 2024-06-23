@@ -18,10 +18,10 @@ function Portfolio() {
   useEffect(() => {
     
     const fontPromises = [
-      new FontFace('ZohoPuviRegular', 'url("../src/Fonts/OpenType-PS/Zoho Puvi Regular.otf")').load(),
-      new FontFace('ZohoPuviSemibold', 'url("../src/Fonts/OpenType-PS/Zoho Puvi Semibold.otf")').load(),
-      new FontFace('ZohoPuviMedium', 'url("../src/Fonts/OpenType-PS/Zoho Puvi Medium.otf")').load(),
-      new FontFace('ZohoPuviBold', 'url("../src/Fonts/OpenType-PS/Zoho Puvi Bold.otf")').load(),
+      new FontFace('ZohoPuviRegular', 'url("/Zoho Puvi Regular.otf")').load(),
+      new FontFace('ZohoPuviSemibold', 'url("/Zoho Puvi Semibold.otf")').load(),
+      new FontFace('ZohoPuviMedium', 'url("/Zoho Puvi Medium.otf")').load(),
+      new FontFace('ZohoPuviBold', 'url("/Zoho Puvi Bold.otf")').load(),
     ];
 
     Promise.all(fontPromises)
