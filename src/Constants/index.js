@@ -110,7 +110,7 @@ export const SkillsList = [
 export const projects = [
     {
         name: "Ecommerce Scraper",
-        description : "Scraping product details in Ecommerce sites like Amazon, Flipkart and compares the prize, reviews of the product .",
+        description : "Scraping product details in Ecommerce sites like Amazon, Flipkart and compares the prize, reviews of the product.",
         technology:"MERN Stack",
         github:"https://github.com/samrat2k03/Ecommerce-Scraper.git",
         live:"https://github.com/samrat2k03/Ecommerce-Scraper.git",
@@ -120,7 +120,7 @@ export const projects = [
     },
     {
         name: "Chat With Docs",
-        description : "You can collaborate with you own data and it can responds like a virtual assistant.",
+        description : "You can collaborate with you own data and it can responds like a virtual assistant,providing responses based on the user's data.", 
         technology:"Python, Google Gemini API, StreamLit",
         github:"https://github.com/samrat2k03/Chat-with-docs.git",
         live:"https://github.com/samrat2k03/Chat-with-docs.git",
@@ -130,7 +130,7 @@ export const projects = [
     },
     {
         name: "Student Hub",
-        description : "This is an advanced version of student information system. Students can chat, discuss, registering their profiles and direct communication with institute",
+        description : "Advanced version of student information system. Students can chat, discuss, registering their profiles and direct communication with institute.",
         technology:"ReactJs, Sass, Firebase, FireStore",
         github:"https://github.com/samrat2k03/V2---Student-Hub.git",
         live:"https://student-hub-1.web.app/",
@@ -152,7 +152,7 @@ export const projects = [
     },
     {
         name: "Nike Landing Page",
-        description : "This Nike landing page is a dynamic and visually appealing web application that provides an engaging and interactive user experience",
+        description : "This Nike landing page is a dynamic and visually appealing web application that provides an engaging and interactive user experience.",
         technology:"ReactJs, TailWindCSS",
         github:"https://github.com/samrat2k03/nike-landing-page.git",
         live:"https://nike-landing-page-samrat.netlify.app/",
