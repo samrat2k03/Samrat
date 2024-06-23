@@ -227,9 +227,9 @@ export const socialMedia = [
         link:"https://twitter.com/samratapr28",
         logo:twitterLogo
     },
-    {
-        name:"Gmail",
-        link:"mailto:samratapr40@gmail.com",
-        logo:gmailLogo
-    }
+    // {
+    //     name:"Gmail",
+    //     link:"mailto:samratapr40@gmail.com",
+    //     logo:gmailLogo
+    // }
 ]

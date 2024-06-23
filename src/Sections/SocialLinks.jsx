@@ -37,9 +37,9 @@ function SocialLinks() {
               <img 
                 src={social.logo} 
                 alt={social.name} 
-                width={40} 
-                height={40}
-                className="max-w-40 h-auto" />
+                width={35} 
+                height={35}
+                className="max-w-40 h-auto transform transition-transform duration-300 ease-in-out hover:scale-105" />
             </a>
           </div>
         ))}
